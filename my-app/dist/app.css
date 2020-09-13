@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+header {
+  height: 100px;
+  background-color: black;
+}
+
+footer .black-part {
+  height: 100px;
+  background-color: black;
+}
+
+.mini-menu {
+  color: white;
+  float: right;
+  padding-right: 20%;
+}
+
+.mini-menu li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 15px;
+}
+
+.mini-menu li i {
+  color: royalblue;
+}
+
+.main-header {
+  display: flex;
+  height: 50%;
+  width: 100%;
+  padding-left: 20%;
+}
+
+.main-header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.main-header li {
+  float: left;
+}
+
+.main-header li a,
+.main-header .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.main-header li a:hover,
+.main-header .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.main-header li.dropdown {
+  display: inline-block;
+}
+
+.main-header .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.main-header .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.main-header .dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.main-header .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.jumbotron {
+  height: 460px;
+  width: 100%;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+  background-position: center top;
+}
+
+.jumbo-container {
+  margin: 0 20%;
+  border: 1px solid black;
+  display: flex;
+}
+
+.jumbo-title {
+  margin-left: 250px;
+  padding-top: 50px;
+  width: 400px;
+  color: white;
+}
+
+ul.jumbo-features-list {
+  list-style-type: none;
+}
+
+.panel {
+  height: 300px;
+  width: 100%;
+  background: tomato;
+}
+

@@ -1,0 +1,11 @@
+$height: 100px;
+$backgroundColor: black;
+
+header{
+  height: $height;
+  background-color: $backgroundColor;
+}
+footer .black-part {
+  height: $height;
+  background-color: $backgroundColor;
+}

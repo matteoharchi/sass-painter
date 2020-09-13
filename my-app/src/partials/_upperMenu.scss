@@ -1,0 +1,23 @@
+@mixin menuul{
+  color: white;
+  float: right;
+  padding-right: 20%;
+}
+@mixin menuli{
+  list-style-type: none;
+  display: inline-block;
+  margin: 15px;
+}
+
+.mini-menu{
+  @include menuul;
+}
+
+.mini-menu li{
+  @include menuli;
+  i{
+    color: royalblue;
+  }
+}
+
+

@@ -1,0 +1,21 @@
+.jumbotron {
+    height: 460px;
+    width: 100%;
+    background-image:url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+    background-position: center top;
+  }
+
+.jumbo-container {
+    margin: 0 20%;
+    border: 1px solid black;
+    display: flex;
+}
+.jumbo-title {
+    margin-left: 250px;
+    padding-top: 50px;
+    width: 400px;
+    color: white;
+}
+ul.jumbo-features-list{
+    list-style-type: none;
+}

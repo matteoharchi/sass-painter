@@ -1,0 +1,9 @@
+@mixin panelsSize {
+  height: 300px;
+  width: 100%;
+}
+
+.panel {
+  @include panelsSize;
+  background: tomato;
+}
