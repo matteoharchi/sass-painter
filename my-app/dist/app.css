@@ -101,7 +101,6 @@ footer .black-part {
 
 .jumbo-container {
   padding: 30px 20%;
-  border: 1px solid black;
   display: flex;
 }
 
@@ -122,12 +121,87 @@ footer .black-part {
   margin-bottom: 20px;
 }
 
+.jumbo-title #trial {
+  height: 60px;
+  width: 200px;
+  background-color: grey;
+  color: white;
+  font-size: 20px;
+  border: none;
+  margin-top: 20px;
+}
+
 .jumbo-box {
   height: 420px;
   width: 400px;
   background-color: black;
   margin-top: calc(100%-420px);
   font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.jumbo-box .first-line {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.jumbo-box .first-line #price {
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+.jumbo-box .first-line img {
+  padding-right: 10px;
+}
+
+.jumbo-box .first-line #download {
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+.jumbo-box #buy-button {
+  height: 40px;
+  width: 160px;
+  background-color: royalblue;
+  color: seashell;
+  margin-left: 10px;
+  border: none;
+}
+
+.jumbo-box #whitebox {
+  background-color: seashell;
+  color: black;
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.jumbo-box #whitebox #titlet {
+  font-size: 18px;
+}
+
+.second-nav {
+  background-color: #e6e6e6;
+}
+
+.second-nav ul {
+  font-size: 20px;
+  list-style-type: none;
+  display: flex;
+  line-height: 80px;
+  margin: 0 25%;
+}
+
+.second-nav ul .item {
+  margin-right: 40px;
+  color: grey;
+}
+
+.second-nav ul .item:hover {
+  background-color: white;
 }
 
 .panel {

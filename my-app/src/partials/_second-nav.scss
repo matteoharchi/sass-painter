@@ -1,0 +1,19 @@
+.second-nav {
+    background-color: #e6e6e6;
+    ul{
+        font-size: 20px;
+        list-style-type: none;
+        display: flex;
+        line-height: 80px;
+        margin: 0 25%;
+        .item {
+            margin-right: 40px;
+            color: grey;
+        }
+        .item:hover{
+            background-color: white;
+        }
+        
+    }
+}
+    
