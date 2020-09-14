@@ -1,30 +1,26 @@
 @mixin panelsSize {
   padding: 100px 20%;
-  height: 800px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
-  color: white;
-  font-size: 25px;
-}
-h2{
-  margin-bottom: 30px;
-}
-.text p{
-  font-size: 20px;
-  margin-bottom: 30px;
-}
-
-.panel {
-  @include panelsSize;
   
+  font-size: 25px;
+  h2, h3{
+    margin-bottom: 30px;
+  }
+  .text, .textbox p{
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
 }
-
+// PRIMO PANNELLO
 .first.panel {
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
   padding-bottom: 0px;
   position: relative;
+  color: white;
+  height: 700px;
 }
 .picture img{
   position: absolute;
@@ -37,4 +33,55 @@ img.into {
 }
 img.device{
   height: 500px;
+}
+
+//PARALLAX
+.parallax {
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax.first{
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg");
+}
+.parallax.second{
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-01.jpg");
+}
+
+// SECONDO PANNELLO
+.second.panel img{
+  width: 80%;
+}
+
+//TERZO PANNELLO
+.third.panel{
+  color: white;
+  background-color: #222222;
+}
+.third.panel img{
+  width: 650px;
+}
+.experiment-industry{
+  display: flex;
+  justify-content: left;
+  margin-top: 120px;
+}
+.textbox {
+  width: 35%;
+  text-align: left;
+  padding-top: 100px;
+  
+}
+.textbox.first{
+  padding-right: 30px;
+}
+.textbox.second{
+  padding-left: 30px;
+}
+
+.panel {
+  @include panelsSize;
+  
 }
