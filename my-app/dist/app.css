@@ -32,8 +32,8 @@ footer .black-part {
 
 .main-header {
   display: flex;
+  width: 60%;
   height: 50%;
-  width: 100%;
   padding-left: 20%;
 }
 
@@ -185,6 +185,7 @@ footer .black-part {
 
 .second-nav {
   background-color: #e6e6e6;
+  width: 100%;
 }
 
 .second-nav ul {
@@ -192,7 +193,7 @@ footer .black-part {
   list-style-type: none;
   display: flex;
   line-height: 80px;
-  margin: 0 25%;
+  padding-left: 20%;
 }
 
 .second-nav ul .item {
@@ -204,9 +205,44 @@ footer .black-part {
   background-color: white;
 }
 
+h2 {
+  margin-bottom: 30px;
+}
+
+.text p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
 .panel {
-  height: 300px;
-  width: 100%;
-  background: tomato;
+  padding: 100px 20%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.first.panel {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
+  padding-bottom: 0px;
+  position: relative;
+}
+
+.picture img {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+img.into {
+  height: 490px;
+}
+
+img.device {
+  height: 500px;
 }
 

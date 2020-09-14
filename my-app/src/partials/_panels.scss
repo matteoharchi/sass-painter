@@ -1,9 +1,40 @@
 @mixin panelsSize {
-  height: 300px;
-  width: 100%;
+  padding: 100px 20%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+h2{
+  margin-bottom: 30px;
+}
+.text p{
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 
 .panel {
   @include panelsSize;
-  background: tomato;
+  
+}
+
+.first.panel {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
+  padding-bottom: 0px;
+  position: relative;
+}
+.picture img{
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+img.into {
+  height: 490px;
+}
+img.device{
+  height: 500px;
 }

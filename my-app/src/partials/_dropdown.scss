@@ -1,7 +1,7 @@
 @mixin general-Dropdown{
   display: flex;
+  width: 60%;
   height: 50%;
-  width: 100%;
   padding-left: 20%;
   ul {
     list-style-type: none;
