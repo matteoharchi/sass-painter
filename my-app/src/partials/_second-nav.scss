@@ -13,6 +13,8 @@
         }
         .item:hover{
             background-color: white;
+            cursor: pointer;
+            border-bottom: $black;
         }
         
     }

@@ -19,7 +19,7 @@
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
   padding-bottom: 0px;
   position: relative;
-  color: white;
+  color: $white;
   height: 700px;
 }
 .picture img{
@@ -57,7 +57,7 @@ img.device{
 
 //TERZO PANNELLO
 .third.panel{
-  color: white;
+  color: $white;
   background-color: #222222;
 }
 .third.panel img{

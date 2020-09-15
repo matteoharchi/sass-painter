@@ -4,6 +4,10 @@
   box-sizing: 0;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 header {
   height: 100px;
   background-color: black;
@@ -53,13 +57,15 @@ footer .black-part {
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 11px 16px;
   text-decoration: none;
 }
 
 .main-header li a:hover,
 .main-header .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: white;
+  cursor: pointer;
+  color: black;
 }
 
 .main-header li.dropdown {
@@ -85,6 +91,7 @@ footer .black-part {
 
 .main-header .dropdown-content a:hover {
   background-color: #f1f1f1;
+  color: black;
 }
 
 .main-header .dropdown:hover .dropdown-content {
@@ -203,6 +210,8 @@ footer .black-part {
 
 .second-nav ul .item:hover {
   background-color: white;
+  cursor: pointer;
+  border-bottom: black;
 }
 
 .first.panel {
